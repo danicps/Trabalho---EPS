@@ -1,8 +1,14 @@
 *{
     margin:0%;
     padding: 0%;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 header {
     background-color: #ffffff;
@@ -15,8 +21,41 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+header .logo img {
+    width: 160px;
+    display: block;
+}
+
+header h1 {
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #461313;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #791e1c;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    width: 80%;
+}
+
 .bannerNos {
-    background-color: #d8e8fc;
+    background-color: #dee2e7;
     padding: 100px 20px 80px;
     display: flex;
     align-items: center;
@@ -27,7 +66,7 @@ header {
     overflow: hidden;
     margin-top: 50px; 
     animation: fadeInUp 1s ease-out both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
